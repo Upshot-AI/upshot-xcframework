@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = 'Upshot'
-  spec.version       = '0.1'
+  spec.version       = '1.0.0'
   spec.license       = { :type => 'MIT' }
   spec.homepage      = 'https://github.com/Upshot-AI/upshot-xcframework'
   spec.authors       = { 'Upshot' => 'developer@upshot.ai'  }
