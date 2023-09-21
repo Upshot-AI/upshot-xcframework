@@ -36909,28 +36909,28 @@
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Activity Manager\/UpshotWindowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 958,
+      "offset": 1001,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Activity Manager\/UpshotWindowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1607,
+      "offset": 1650,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Activity Manager\/UpshotWindowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1647,
+      "offset": 1733,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Activity Manager\/UpshotWindowManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1732,
+      "offset": 1862,
       "length": 4,
       "value": "true"
     },
@@ -41592,28 +41592,28 @@
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/Cells\/Internal Cell\/TriviaImageCell.swift",
       "kind": "StringLiteral",
-      "offset": 1797,
+      "offset": 1823,
       "length": 9,
       "value": "\"#DADADA\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/Cells\/Internal Cell\/TriviaImageCell.swift",
       "kind": "StringLiteral",
-      "offset": 1874,
+      "offset": 1900,
       "length": 9,
       "value": "\"#50C7FF\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/Cells\/Internal Cell\/TriviaImageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2702,
+      "offset": 2891,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/Cells\/Internal Cell\/TriviaImageCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 2831,
+      "offset": 3020,
       "length": 5,
       "value": "false"
     },
@@ -45665,50 +45665,57 @@
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Activity Manager\/ActivityCallbackHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3176,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Activity Manager\/ActivityCallbackHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3227,
+      "offset": 3292,
       "length": 10,
       "value": "\"deepLink\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Activity Manager\/ActivityCallbackHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3306,
+      "offset": 3371,
       "length": 15,
       "value": "\"deeplink_type\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Activity Manager\/ActivityCallbackHandler.swift",
       "kind": "Dictionary",
-      "offset": 3482,
+      "offset": 3584,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Activity Manager\/ActivityCallbackHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3874,
+      "offset": 3977,
       "length": 19,
       "value": "\"deepLink_keyValue\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Activity Manager\/ActivityCallbackHandler.swift",
       "kind": "StringLiteral",
-      "offset": 3905,
+      "offset": 4008,
       "length": 15,
       "value": "\"deeplink_type\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Activity Manager\/ActivityCallbackHandler.swift",
       "kind": "Array",
-      "offset": 4144,
+      "offset": 4247,
       "length": 51,
       "value": "[\"campaignId\", \"activityId\", \"activityType\", \"msgId\"]"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Activity Manager\/ActivityCallbackHandler.swift",
       "kind": "Array",
-      "offset": 4470,
+      "offset": 4573,
       "length": 100,
       "value": "[\"campaignId\", \"activityId\", \"activityType\", \"msgId\", \"skipedIndex\", \"totalScreenCount\", \"maxSlideIndex\"]"
     },
@@ -48235,147 +48242,147 @@
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "FloatLiteral",
-      "offset": 1215,
+      "offset": 1371,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1259,
+      "offset": 1415,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "IntegerLiteral",
-      "offset": 1337,
+      "offset": 1493,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "IntegerLiteral",
-      "offset": 1341,
+      "offset": 1497,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1490,
+      "offset": 1646,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1581,
+      "offset": 1737,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "BooleanLiteral",
-      "offset": 1640,
+      "offset": 1796,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "FloatLiteral",
-      "offset": 1820,
+      "offset": 1976,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "FloatLiteral",
-      "offset": 1917,
+      "offset": 2073,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "StringLiteral",
-      "offset": 2494,
+      "offset": 2650,
       "length": 17,
       "value": "\"descriptionView\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "BooleanLiteral",
-      "offset": 2577,
+      "offset": 2733,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "BooleanLiteral",
-      "offset": 2636,
+      "offset": 2792,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "BooleanLiteral",
-      "offset": 2684,
+      "offset": 2840,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "IntegerLiteral",
-      "offset": 2807,
+      "offset": 2963,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "IntegerLiteral",
-      "offset": 2811,
+      "offset": 2967,
       "length": 3,
       "value": "120"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "FloatLiteral",
-      "offset": 4133,
+      "offset": 4289,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "IntegerLiteral",
-      "offset": 4324,
+      "offset": 4480,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "FloatLiteral",
-      "offset": 4384,
+      "offset": 4540,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "BooleanLiteral",
-      "offset": 4543,
+      "offset": 4699,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "IntegerLiteral",
-      "offset": 4987,
+      "offset": 5143,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/TriviaController+Orientation.swift",
       "kind": "FloatLiteral",
-      "offset": 6285,
+      "offset": 6441,
       "length": 3,
       "value": "0.1"
     },
@@ -51469,420 +51476,420 @@
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 8690,
+      "offset": 8716,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "FloatLiteral",
-      "offset": 9127,
+      "offset": 9295,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 9547,
+      "offset": 9715,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 10139,
+      "offset": 10307,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 10449,
+      "offset": 10691,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 10655,
+      "offset": 10897,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 10794,
+      "offset": 11036,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 10908,
+      "offset": 11150,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 11184,
+      "offset": 11426,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 11560,
+      "offset": 11802,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 11598,
+      "offset": 11840,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 11931,
+      "offset": 12217,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 11935,
+      "offset": 12221,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 11942,
+      "offset": 12228,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 12017,
+      "offset": 12303,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 12124,
+      "offset": 12410,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 12128,
+      "offset": 12414,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 12135,
+      "offset": 12421,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 12258,
+      "offset": 12544,
       "length": 8,
       "value": "\"enable\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 12349,
+      "offset": 12635,
       "length": 24,
       "value": "\"TriviaQuestionAnswered\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 12589,
+      "offset": 12875,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 12976,
+      "offset": 13262,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 13069,
+      "offset": 13355,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 13380,
+      "offset": 13666,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 13957,
+      "offset": 14243,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 14006,
+      "offset": 14292,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 14168,
+      "offset": 14454,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 14214,
+      "offset": 14500,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 14462,
+      "offset": 14748,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 14519,
+      "offset": 14805,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 14793,
+      "offset": 15079,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 14836,
+      "offset": 15122,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 14905,
+      "offset": 15191,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 15070,
+      "offset": 15356,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 15373,
+      "offset": 15659,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 15711,
+      "offset": 15997,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 15753,
+      "offset": 16039,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 15764,
+      "offset": 16050,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 15905,
+      "offset": 16191,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 15920,
+      "offset": 16206,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 16058,
+      "offset": 16344,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 16281,
+      "offset": 16567,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 16364,
+      "offset": 16650,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 16635,
+      "offset": 16921,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 16718,
+      "offset": 17004,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 16841,
+      "offset": 17127,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 16857,
+      "offset": 17143,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 16885,
+      "offset": 17171,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "Array",
-      "offset": 17368,
+      "offset": 17654,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 17467,
+      "offset": 17753,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 17811,
+      "offset": 18097,
       "length": 28,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 17825,
+      "offset": 18111,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 17838,
+      "offset": 18124,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "FloatLiteral",
-      "offset": 17873,
+      "offset": 18159,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 18402,
+      "offset": 18688,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 18417,
+      "offset": 18703,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 18444,
+      "offset": 18730,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 18559,
+      "offset": 18845,
       "length": 4,
       "value": "1000"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 19128,
+      "offset": 19414,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vinodkottamasu\/Documents\/Projects\/Upshot\/iOS\/Source\/SDK\/iOS-Upshot\/Upshot\/BrandKinesis\/BrandKinesis\/Trivia\/TriviaController\/USTriviaPresenter.swift",
       "kind": "BooleanLiteral",
-      "offset": 19374,
+      "offset": 19660,
       "length": 4,
       "value": "true"
     },
