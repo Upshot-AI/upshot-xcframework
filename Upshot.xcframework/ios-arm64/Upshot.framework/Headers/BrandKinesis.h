@@ -4,7 +4,7 @@
 //
 //  Created by [x]cube LABS on 20/08/14.
 //  Copyright (c) 2014 [x]cube LABS. All rights reserved.
-//  Upshot SDK Version 1.6.5
+//  Upshot SDK Version 1.6.6
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
@@ -25,6 +25,7 @@ typedef void(^_Nullable BrandKinesisUserStateCompletion)(BOOL status, NSError * 
 typedef void(^_Nullable BrandKinesisRewardsCompletionBlock)(NSDictionary * _Nullable response, NSString * _Nullable errorMessage);
 typedef void(^_Nullable BrandKinesisGetNotificationCompletion)(NSDictionary * _Nullable response, NSString * _Nullable errorMessage);
 typedef void(^_Nullable BrandKinesisStreaksCompletionBlock)(NSDictionary * _Nullable response, NSString * _Nullable errorMessage);
+typedef void(^_Nullable BrandKinesisUpdateNotificationStatusCompletion)(BOOL status, NSString * _Nullable error);
 
 /**
  * Key used to define the current screen name
@@ -275,7 +276,7 @@ BK_EXTERN NSString *_Null_unspecified const BKUTM_Campaign;
 - (void)terminate;
 
 
-- (void)disableUser:(BOOL)shouldDisable completion:(BrandKinesisUserStateCompletion)block;
+- (void)disableUser:(BrandKinesisUserStateCompletion)block;
 
 - (NSString *_Nonnull)getUserId;
 
@@ -302,9 +303,10 @@ BK_EXTERN NSString *_Null_unspecified const BKUTM_Campaign;
                 loadmore:(BOOL)loadMore
             onCompletion:(BrandKinesisGetNotificationCompletion)completionBlock;
 
-- (void)getUnreadNotificationsCount:(NSInteger)pushLimit
-                   notificationType:(BKInboxMessageType)inboxType
+- (void)getUnreadNotificationsCountWithType:(BKInboxMessageType)inboxType
                        onCompletion:(void (^_Nullable)(NSInteger  pushCount))completionBlock;
+
+- (void)updatePushNotificationReadStatus:(NSString *_Nonnull)notificationId onCompletion:(BrandKinesisUpdateNotificationStatusCompletion _Nullable)completionBlock;
 
 
 //* Internal Methods For Plugin*//
@@ -341,6 +343,8 @@ BK_EXTERN NSString *_Null_unspecified const BKUTM_Campaign;
 - (void)brandKinesisActivityDidAppear:(nonnull BrandKinesis *)brandKinesis forActivityType:(BKActivityType)activityType;
 
 - (void)brandKinesisActivityDidDismiss:(nonnull BrandKinesis *)brandKinesis forActivityType:(BKActivityType)activityType;
+
+- (void)brandKinesisActivitySkipped:(nonnull BrandKinesis *)brandKinesis forActivityType:(BKActivityType)activityType;
 
 - (void)brandKinesisUserRating:(NSInteger)rating  withType:(NSInteger)ratingType;
 

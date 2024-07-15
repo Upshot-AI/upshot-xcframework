@@ -78,4 +78,14 @@
 
 + (CGFloat)getButtonWidth:(UIButton *)button width:(CGFloat)width;
 
++ (NSString *)aes256Encrypt:(NSString *)data;
+
++ (NSString*)aes256Decrypt:(NSString *)encryptedString;
+
++ (NSArray *)getProfileEncryptedKeys;
+
++ (NSArray *)getProfileExternalIdsUnEncryptedKeys;
+
++ (UIColor *)colorWithHexStringWithNoDefault:(NSString *)hexString;
+
 @end

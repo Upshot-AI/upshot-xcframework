@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Upshot
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVKit
@@ -51,7 +51,7 @@ extension UIKit.UIImageView {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class InboxControllerManager : ObjectiveC.NSObject {
-  @objc public func getUnreadNotificationsCount(pushLimit: Swift.Int, notificationType: Upshot.BKInboxMessageType, appuid: Swift.String, onCompletion: @escaping (_ notificationsCount: Swift.Int) -> Swift.Void)
+  @objc public func getUnreadNotificationsCount(notificationType: Upshot.BKInboxMessageType, appuid: Swift.String, onCompletion: @escaping (_ notificationsCount: Swift.Int) -> Swift.Void)
   @objc public func showInboxController(options: [Swift.String : Any], appuid: Swift.String)
   @objc override dynamic public init()
   @objc deinit
@@ -707,7 +707,7 @@ extension Upshot.Timeline : Swift.CustomDebugStringConvertible {
   }
 }
 @objc @_inheritsConvenienceInitializers public class PushAmplificationHandler : ObjectiveC.NSObject {
-  @objc public func updatePushReadStatus(msgId: Swift.String, appuid: Swift.String)
+  @objc public func updatePushReadStatus(msgId: Swift.String, appuid: Swift.String, onCompletion: ((Swift.Bool, Swift.String) -> Swift.Void)? = nil)
   @objc override dynamic public init()
   @objc deinit
 }
@@ -905,12 +905,12 @@ public typealias HTTPHeaders = [Swift.String : Swift.String]
   @objc deinit
 }
 extension Upshot.Request : Swift.CustomStringConvertible {
-  open var description: Swift.String {
+  public var description: Swift.String {
     get
   }
 }
 extension Upshot.Request : Swift.CustomDebugStringConvertible {
-  open var debugDescription: Swift.String {
+  public var debugDescription: Swift.String {
     get
   }
 }

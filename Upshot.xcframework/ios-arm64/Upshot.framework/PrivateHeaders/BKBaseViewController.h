@@ -15,6 +15,7 @@
 @property (nonatomic, copy) BrandKinesisActivityDidDismiss  didDismiss;
 @property (nonatomic, copy) BrandKinesisActivityDidAppear   didAppear;
 @property (nonatomic, copy) BrandKinesisActivityWillAppear  willAppear;
+@property (nonatomic, assign) BOOL  isActivitySkipped;
 
 
 @property (nonatomic, strong) BKActivity *activity;

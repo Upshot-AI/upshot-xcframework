@@ -75,6 +75,12 @@
 
 - (id _Nullable)preferences;
 
+- (void)deleteCurrentUser:(NSString *_Nullable)appuid;
+
+- (void)deleteUserDetailsForDisableUser:(NSString *_Nullable)appuid;
+
+- (void)deleteActivitiesData:(NSString *_Nullable)appuid;
+
 
 @end
 
