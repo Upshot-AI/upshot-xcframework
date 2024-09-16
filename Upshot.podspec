@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name          = 'Upshot'
-  spec.version       = '1.6.5'
+  spec.version       = '1.6.6'
   spec.license       = { :type => 'MIT' }
   spec.homepage      = 'https://github.com/Upshot-AI/upshot-xcframework'
   spec.authors       = { 'Upshot' => 'developer@upshot.ai'  }
@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
 
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  spec.ios.deployment_target  = '11.0'  
+  spec.ios.deployment_target  = '9.0'  
   spec.ios.vendored_frameworks = 'Upshot.xcframework'
   
 end
