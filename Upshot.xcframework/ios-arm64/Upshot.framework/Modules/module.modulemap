@@ -25,7 +25,6 @@ framework module Upshot {
     header "BKActivityHandler.h"
     header "HTTPParamBuilder.h"
     header "WindowRemoveType.h"
-    header "UpshotCarouselPushCell.h"
 }
 
 module Upshot.Swift {

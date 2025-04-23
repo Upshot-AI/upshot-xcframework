@@ -13,7 +13,7 @@
 
 #define kXLabelMargin 15
 #define kYLabelMargin 15
-#define kYLabelHeight 15
+#define kYLabelHeight 20
 #define kXLabelHeight 20
 
 typedef NSString *(^PNYLabelFormatter)(CGFloat yLabelValue);

@@ -43,7 +43,7 @@ typedef void(^BKInboxInfoCompletion)(NSArray *inboxValues,
  Insert push message give by the developer to the Database 
  ref:inboxInfoInsertedPushPayLoad:withInbox:activityId:error
  */
-- (void)insertPushMessageWithParams:(NSDictionary *)params;
+- (void)insertPushMessageWithParams:(NSDictionary *)params withMediaId:(NSString *)mediaId andButtonId:(NSString *)buttonId;
 
 /*!
  Fetch the messages from the server

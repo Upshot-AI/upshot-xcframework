@@ -22,4 +22,4 @@ FOUNDATION_EXPORT const unsigned char UpshotVersionString[];
 #import <Upshot/BKProperties.h>
 #import <Upshot/BKUIPreferences.h>
 #import <Upshot/BKBGColor.h>
-#import <Upshot/UpshotNotificationService.h>
+//#import <Upshot/UpshotNotificationService.h>

@@ -88,4 +88,6 @@
 
 + (UIColor *)colorWithHexStringWithNoDefault:(NSString *)hexString;
 
++ (UIEdgeInsets)getSafeAreaInsets;
+
 @end

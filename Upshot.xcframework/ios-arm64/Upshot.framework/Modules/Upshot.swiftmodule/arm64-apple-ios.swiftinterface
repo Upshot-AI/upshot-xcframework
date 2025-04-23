@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name Upshot
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Upshot
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVKit
 import Dispatch
 import Foundation
@@ -17,26 +17,27 @@ import UIKit
 import WebKit
 import _Concurrency
 import _StringProcessing
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class TriviaPieView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var frame: CoreFoundation.CGRect {
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class TriviaPieView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var frame: CoreFoundation.CGRect {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension Upshot.TriviaPieView : Upshot.BKPieChartDelegate, Upshot.BKPieChartDataSource {
 }
 extension Upshot.TriviaPieView {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSlices(in pieChart: Upshot.BKPieChart!) -> Swift.UInt
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func pieChart(_ pieChart: Upshot.BKPieChart!, valueForSliceAt index: Swift.UInt) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func pieChart(_ pieChart: Upshot.BKPieChart!, textForSliceAt index: Swift.UInt) -> Swift.String!
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func pieChart(_ pieChart: Upshot.BKPieChart!, colorForSliceAt index: Swift.UInt) -> UIKit.UIColor!
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfSlices(in pieChart: Upshot.BKPieChart!) -> Swift.UInt
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pieChart(_ pieChart: Upshot.BKPieChart!, valueForSliceAt index: Swift.UInt) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pieChart(_ pieChart: Upshot.BKPieChart!, textForSliceAt index: Swift.UInt) -> Swift.String!
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pieChart(_ pieChart: Upshot.BKPieChart!, colorForSliceAt index: Swift.UInt) -> UIKit.UIColor!
 }
 extension UIKit.UIImageView {
-  @objc @_Concurrency.MainActor(unsafe) dynamic open func load(url: Foundation.URL, completion: @escaping (UIKit.UIImage) -> Swift.Void)
-  @objc @_Concurrency.MainActor(unsafe) dynamic open func getImageData(url: Foundation.URL, completion: @escaping (Foundation.Data) -> Swift.Void)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open func load(url: Foundation.URL, completion: @escaping (UIKit.UIImage) -> Swift.Void)
+  @objc @_Concurrency.MainActor @preconcurrency dynamic open func getImageData(url: Foundation.URL, completion: @escaping (Foundation.Data) -> Swift.Void)
 }
 @_hasMissingDesignatedInitializers open class InteractiveTutorialElement {
   @objc deinit
@@ -263,12 +264,12 @@ extension Upshot.DownloadResponse {
     get
   }
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class CustomActionViewController : Upshot.BKBaseViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class CustomActionViewController : Upshot.BKBaseViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension Swift.String {
@@ -406,29 +407,29 @@ extension Upshot.Result {
   @discardableResult
   public func ifFailure(_ closure: () -> Swift.Void) -> Upshot.Result<Value>
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class MiniGameController : Upshot.BKBaseViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class MiniGameController : Upshot.BKBaseViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension Upshot.MiniGameController : WebKit.WKScriptMessageHandler {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func userContentController(_ userContentController: WebKit.WKUserContentController, didReceive message: WebKit.WKScriptMessage)
 }
 extension Upshot.MiniGameController : WebKit.WKNavigationDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFinish navigation: WebKit.WKNavigation!)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webViewWebContentProcessDidTerminate(_ webView: WebKit.WKWebView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didFail navigation: WebKit.WKNavigation!, withError error: any Swift.Error)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
 }
-@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) public class InteractiveTutorialWindow : UIKit.UIWindow {
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor @preconcurrency public class InteractiveTutorialWindow : UIKit.UIWindow {
   @available(iOS 13.0, *)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(windowScene: UIKit.UIWindowScene)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(windowScene: UIKit.UIWindowScene)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class RedirectionManager : ObjectiveC.NSObject, StoreKit.SKStoreProductViewControllerDelegate {
@@ -733,13 +734,13 @@ open class MultipartFormData {
   @objc deinit
 }
 public typealias JSON = [Swift.String : Any]
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class TriviaBarGraphView : UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var frame: CoreFoundation.CGRect {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class TriviaBarGraphView : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var frame: CoreFoundation.CGRect {
     @objc get
     @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers open class InteractiveTutorialRouter : ObjectiveC.NSObject {
@@ -748,7 +749,7 @@ public typealias JSON = [Swift.String : Any]
   @objc deinit
 }
 extension Upshot.USTriviaView {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
 }
 @objc @_inheritsConvenienceInitializers open class MiniGameRouter : ObjectiveC.NSObject {
   @objc public static func make(activity: Upshot.BKActivity, sessionId: Swift.String, appuid: Swift.String, tag: Swift.String?, dismissBlock: @escaping (Swift.String?) -> Swift.Void) -> UIKit.UIViewController?
@@ -770,22 +771,22 @@ extension Upshot.USTriviaView {
   @objc deinit
 }
 extension UIKit.UIView {
-  @_Concurrency.MainActor(unsafe) public class func findByAccessibilityIdentifier(identifier: Swift.String) -> UIKit.UIView?
+  @_Concurrency.MainActor @preconcurrency public class func findByAccessibilityIdentifier(identifier: Swift.String) -> UIKit.UIView?
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class USTriviaView : Upshot.BKBaseViewController {
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class USTriviaView : Upshot.BKBaseViewController {
   @objc deinit
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
 }
 extension Upshot.USTriviaView : UIKit.UICollectionViewDataSource, UIKit.UICollectionViewDelegateFlowLayout, UIKit.UICollectionViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumLineSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, insetForSectionAt section: Swift.Int) -> UIKit.UIEdgeInsets
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfSections(in collectionView: UIKit.UICollectionView) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, sizeForItemAt indexPath: Foundation.IndexPath) -> CoreFoundation.CGSize
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, minimumLineSpacingForSectionAt section: Swift.Int) -> CoreFoundation.CGFloat
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, layout collectionViewLayout: UIKit.UICollectionViewLayout, insetForSectionAt section: Swift.Int) -> UIKit.UIEdgeInsets
 }
 @_hasMissingDesignatedInitializers public class NetworkReachabilityManager {
   public enum NetworkReachabilityStatus {
@@ -827,15 +828,15 @@ extension Upshot.USTriviaView : UIKit.UICollectionViewDataSource, UIKit.UICollec
 extension Upshot.NetworkReachabilityManager.NetworkReachabilityStatus : Swift.Equatable {
 }
 public func == (lhs: Upshot.NetworkReachabilityManager.NetworkReachabilityStatus, rhs: Upshot.NetworkReachabilityManager.NetworkReachabilityStatus) -> Swift.Bool
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class InteractiveTutorialController : Upshot.BKBaseViewController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class InteractiveTutorialController : Upshot.BKBaseViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension Upshot.InteractiveTutorialController {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
 }
 extension Upshot.Request {
   public enum ValidationResult {
@@ -866,7 +867,7 @@ extension Upshot.DownloadRequest {
   public func validate() -> Self
 }
 extension UIKit.UIWindow {
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func motionEnded(_ motion: UIKit.UIEvent.EventSubtype, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func motionEnded(_ motion: UIKit.UIEvent.EventSubtype, with event: UIKit.UIEvent?)
 }
 public protocol RequestAdapter {
   func adapt(_ urlRequest: Foundation.URLRequest) throws -> Foundation.URLRequest

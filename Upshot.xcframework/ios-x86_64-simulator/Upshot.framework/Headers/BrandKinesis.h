@@ -4,7 +4,7 @@
 //
 //  Created by [x]cube LABS on 20/08/14.
 //  Copyright (c) 2014 [x]cube LABS. All rights reserved.
-//  Upshot SDK Version 1.6.6
+//  Upshot SDK Version 1.6.9
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
@@ -295,8 +295,6 @@ BK_EXTERN NSString *_Null_unspecified const BKUTM_Campaign;
                                tag:(NSString *_Nonnull)tag
                withCompletionblock:(BrandKinesisRewardsCompletionBlock)completionBlock;
 
-- (void)showEnhancedPushNotification:(UIViewController * _Nonnull)controller withContent:(UNNotification * _Nonnull)notification;
-
 - (void)showInboxController:(NSDictionary * _Nonnull)options;
 
 - (void)getNotificationsWith:(NSInteger)limit
@@ -359,9 +357,10 @@ BK_EXTERN NSString *_Null_unspecified const BKUTM_Campaign;
 
 - (nonnull NSArray *)brandKinesisExludeActivitiesForShare;
 
-- (void)brandKinesisCarouselPushClickPayload:(NSDictionary *_Nonnull)payload;
-
 - (void)brandKinesisInteractiveTutorialInfoForPlugin:(nonnull NSString *)jsonData;
+
+- (void)brandKinesisOnPushClickInfo:(NSDictionary * _Nonnull)payload
+NS_SWIFT_NAME(brandKinesisOnPushClickInfo(_:));
 
 
 /*!
