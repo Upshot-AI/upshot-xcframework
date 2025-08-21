@@ -103,4 +103,17 @@ typedef NS_ENUM(NSInteger, BKRewardHistoryType) {
 };
 
 
+typedef NSString * FeatureType NS_STRING_ENUM;
+
+static FeatureType const FeatureTypeSessions            = @"Sessions";
+static FeatureType const FeatureTypeAttribution         = @"Attribution";
+static FeatureType const FeatureTypePage                = @"Page";
+static FeatureType const FeatureTypeCustom              = @"Custom";
+static FeatureType const FeatureTypeProfile             = @"Profile";
+static FeatureType const FeatureTypeActions             = @"Actions";
+static FeatureType const FeatureTypeRewards             = @"Rewards";
+static FeatureType const FeatureTypeStreaks             = @"Streaks";
+static FeatureType const FeatureTypeNotificationsList   = @"Notifications List";
+static FeatureType const FeatureTypeLocation            = @"Location";
+
 #endif

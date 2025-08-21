@@ -4,7 +4,7 @@
 //
 //  Created by [x]cube LABS on 20/08/14.
 //  Copyright (c) 2014 [x]cube LABS. All rights reserved.
-//  Upshot SDK Version 1.6.9
+//  Upshot SDK Version 1.7
 
 #import <Foundation/Foundation.h>
 #import <CoreLocation/CoreLocation.h>
@@ -86,6 +86,7 @@ BK_EXTERN NSString *_Null_unspecified const BKUTM_Campaign;
 @property (nonatomic, weak, nullable) id delegate;
 
 
+@property(nonatomic, strong, nonnull) NSDictionary *fontStyles;
 
 /*!
  @brief sharedManager
@@ -299,10 +300,10 @@ BK_EXTERN NSString *_Null_unspecified const BKUTM_Campaign;
 
 - (void)getNotificationsWith:(NSInteger)limit
                 loadmore:(BOOL)loadMore
+                fromLastDays:(NSInteger)days
             onCompletion:(BrandKinesisGetNotificationCompletion)completionBlock;
 
-- (void)getUnreadNotificationsCountWithType:(BKInboxMessageType)inboxType
-                       onCompletion:(void (^_Nullable)(NSInteger  pushCount))completionBlock;
+- (void)getUnreadNotificationsCountWithType:(BKInboxMessageType)inboxType fromLastDays:(NSInteger)days onCompletion:(void (^_Nullable)(NSInteger  pushCount))completionBlock;
 
 - (void)updatePushNotificationReadStatus:(NSString *_Nonnull)notificationId onCompletion:(BrandKinesisUpdateNotificationStatusCompletion _Nullable)completionBlock;
 
@@ -357,10 +358,11 @@ BK_EXTERN NSString *_Null_unspecified const BKUTM_Campaign;
 
 - (nonnull NSArray *)brandKinesisExludeActivitiesForShare;
 
-- (void)brandKinesisInteractiveTutorialInfoForPlugin:(nonnull NSString *)jsonData;
-
 - (void)brandKinesisOnPushClickInfo:(NSDictionary * _Nonnull)payload
 NS_SWIFT_NAME(brandKinesisOnPushClickInfo(_:));
+
+
+- (void)brandKinesisInteractiveTutorialInfoForPlugin:(nonnull NSString *)jsonData;
 
 
 /*!

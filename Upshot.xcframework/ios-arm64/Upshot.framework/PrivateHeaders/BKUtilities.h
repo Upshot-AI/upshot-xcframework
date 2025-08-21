@@ -90,4 +90,13 @@
 
 + (UIEdgeInsets)getSafeAreaInsets;
 
++ (BOOL)isLightColor:(UIColor *)color;
+
++ (BOOL)isLicenseTypeLite;
+
++ (BOOL)isFeatureEnabled:(NSString *)featureType;
+
++ (NSArray *)getGraphColors;
+
+
 @end

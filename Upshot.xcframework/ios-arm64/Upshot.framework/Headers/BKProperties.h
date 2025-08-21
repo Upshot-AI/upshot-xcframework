@@ -129,6 +129,7 @@ typedef NS_ENUM(NSInteger, BKInboxMessageType) {
 BK_EXTERN NSString *const BKFetchLocation;
 BK_EXTERN NSString *const BKApplicationID;
 BK_EXTERN NSString *const BKApplicationOwnerID;
+BK_EXTERN NSString *const BKAppuID;
 BK_EXTERN NSString *const BKExceptionHandler;
 BK_EXTERN NSString *const BKEnableDebugLogs;
 BK_EXTERN NSString *const BKUseCellularData;
@@ -139,6 +140,7 @@ BK_EXTERN NSString *const BKEnableLoadMore;
 BK_EXTERN NSString *const BKPushFetchLimit;
 BK_EXTERN NSString *const BKDisplayMsgCount;
 BK_EXTERN NSString *const BKDisplayTime;
+BK_EXTERN NSString *const BKPushDaysLimit;
 
 
 #endif

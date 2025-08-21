@@ -25,6 +25,7 @@ framework module Upshot {
     header "BKActivityHandler.h"
     header "HTTPParamBuilder.h"
     header "WindowRemoveType.h"
+    header "BrandKinesis+Internal.h" 
 }
 
 module Upshot.Swift {

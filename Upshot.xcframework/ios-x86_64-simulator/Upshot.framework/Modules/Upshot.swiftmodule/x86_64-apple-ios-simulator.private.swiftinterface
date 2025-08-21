@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Upshot
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Upshot
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
 import AVKit
 import Dispatch
 import Foundation
@@ -52,13 +52,13 @@ extension UIKit.UIImageView {
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class InboxControllerManager : ObjectiveC.NSObject {
-  @objc public func getUnreadNotificationsCount(notificationType: Upshot.BKInboxMessageType, appuid: Swift.String, onCompletion: @escaping (_ notificationsCount: Swift.Int) -> Swift.Void)
+  @objc public func getUnreadNotificationsCount(notificationType: Upshot.BKInboxMessageType, appuid: Swift.String, fromLastDays: Swift.Int, onCompletion: @escaping (_ notificationsCount: Swift.Int) -> Swift.Void)
   @objc public func showInboxController(options: [Swift.String : Any], appuid: Swift.String)
   @objc override dynamic public init()
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers public class NotificationHandler : ObjectiveC.NSObject {
-  @objc public func fetchUsernotifications(appuid: Swift.String, notificationId: Swift.String, limit: Swift.Int, completionBlock: @escaping (_ response: Upshot.JSON?, _ errorMessage: Swift.String?) -> Swift.Void)
+  @objc public func fetchUsernotifications(appuid: Swift.String, notificationId: Swift.String, limit: Swift.Int, fromLastDays: Swift.Int, completionBlock: @escaping (_ response: Upshot.JSON?, _ errorMessage: Swift.String?) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
